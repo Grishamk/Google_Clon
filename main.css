@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 6.25%;
+}
+
+/*Navegación*/
+
+.nav-container {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    margin-top: 10rem;
+}
+
+/*DERECHA*/
+.nav-container__right {
+    display: flex;
+    width: 60%;
+    margin-left: 10rem;
+}
+
+.nav-container__right picture {
+    width: 16rem;
+    align-self: center;
+}
+
+.nav-container__right picture img {
+    width: 100%;
+}
+
+.nav-container__right ul {
+    display: flex;
+    margin-left: 10rem;
+    align-items: center;
+}
+.nav-container__right ul li {
+    list-style: none;
+}
+
+.nav-container__right ul li a{
+    text-decoration: none;
+    font-size: 12rem;
+    color: #343A40;
+}
+
+.nav-container__right ul li a:active {
+    color: mediumblue;
+}
+
+.nav-container__right--li {
+    margin-left: 20px;
+}
+
+/*IZQUIERDA*/
+.nav-container__left {
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    margin-right: 10rem;
+}
+
+.nav-container__left picture {
+    width: 20rem;
+    margin-left: 10rem;
+}
+
+.nav-container__left picture img {
+    width: 100%;
+}
+
+/*Contenido Principal*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200rem;
+    margin-bottom: 300rem;
+}
+
+.container picture {
+    width: 112rem;
+}
+
+.container picture img {
+    width: 100%;
+}
+
+.container-search {
+    display: flex;
+    border: solid 1rem #E9ECEF;
+    border-radius: 20rem;
+    padding: 0 10rem;
+    width: 90%;
+}
+
+.container-search picture {
+    width: 25rem;
+    display: flex;
+    align-items: center;
+}
+
+.container-search picture .img {
+    width: 75%;
+    height: 75%;
+}
+
+.container-search picture img {
+    width: 100%;
+}
+
+.container-search form {
+    width: 90%;
+}
+.container-search input {
+    border: none;
+    height: 100%;
+    width: 100%;
+    outline: none;
+}
+
+/*Pie de página*/
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container section {
+    background-color: #E9ECEF;
+    height: 32rem;
+}
+
+.footer-container section h1 {
+    font-size: 12rem;
+    color: #343A40;
+}
