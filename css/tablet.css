@@ -1,0 +1,67 @@
+
+/*NAVEGACIÓN*/
+.nav-container__right ul li a{
+    font-size: 16rem;
+}
+
+.nav-container__right picture {
+    width: 20px;
+}
+
+.nav-container__left picture {
+    width: 30px;
+}
+
+
+
+
+
+/*MAIN*/
+.container {
+    min-height: 90vh;
+    margin-top: 0;
+}
+
+.container .container-picture {
+    width: 200px;
+}
+
+.container-search {
+    height: 35px;
+}
+
+.container-search picture .img {
+    width: 18px;
+    height: 18px;
+}
+
+.container__tendencias {
+    margin-top: 36px;
+}
+
+.container__tendencias h2 {
+    font-size: 20rem;
+}
+
+.container__tendencias-element a {
+    font-size: 14rem;
+    padding: 20px;
+    padding-left: 0;
+}
+
+
+/*FOOTER*/
+.footer-container section{
+    height: 50px;
+}
+
+.footer-container section div {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.footer-container section h1 {
+    font-size: 16rem;
+}
