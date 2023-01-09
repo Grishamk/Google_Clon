@@ -1,0 +1,50 @@
+.nav-container {
+    justify-content: flex-end;
+}
+
+.nav-container__right {
+    width: 7%;
+}
+.nav-container__right picture {
+    display: none;
+}
+
+.nav-container__left {
+    width: 150px;
+}
+
+.nav-container__right ul li a {
+    font-size: 13rem;
+}
+
+
+
+/*MAIN*/
+
+.container {
+    max-width: 700px;
+    min-height: 75vh;
+}
+.container-search {
+    height: 44px;
+    border-radius: 25px;
+}
+
+.container__tendencias {
+    display: none;
+}
+
+.container-searchButton {
+    display: flex;
+}
+
+.texto-suelto {
+    font-size: 13rem;
+    margin-top: 24px;
+    display: flex;
+}
+
+.texto-suelto a {
+    text-decoration: none;
+    color: #1a0dab;
+}
